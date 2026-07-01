@@ -1,4 +1,4 @@
-name: Build Videos JSON
+name: Build Videos.json
 
 on:
   push:
@@ -9,8 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout Videos Repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -18,14 +21,19 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build Videos.json
+      - name: Generate Videos.json
         run: node scripts/merge-videos.js
 
-      - name: Upload Videos.json
-        uses: actions/upload-artifact@v4
-        with:
-          name: Videos
-          path: Videos.json
+      - name: Commit Videos.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add Videos.json
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "🤖 Auto update Videos.json"
+            git push
+          fi
