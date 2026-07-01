@@ -12,7 +12,7 @@ SUBJECTS.forEach(subject => {
   const folder = path.join(__dirname, "..", subject);
 
   if (!fs.existsSync(folder)) {
-    console.log(${subject} folder not found.);
+    console.log(`${subject} folder not found.`);
     return;
   }
 
@@ -30,9 +30,9 @@ SUBJECTS.forEach(subject => {
 
       output.subjects[subject].push(chapter);
 
-      console.log(✓ Added ${subject}/${file});
+      console.log(`✓ Added ${subject}/${file}`);
     } catch (err) {
-      console.error(❌ Error reading ${file}:, err.message);
+      console.error(`❌ Error reading ${file}: ${err.message}`);
     }
   });
 
