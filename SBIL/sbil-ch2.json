@@ -1,0 +1,38 @@
+{
+  "subject": "SBIL",
+  "chapterId": "sbil-ch1",
+  "chapterNo": 1,
+  "chapterName": "Corporate Entities",
+  "videos": [
+    {
+      "id": "sbil-ch2-v1",
+      "videoNo": 1,
+      "title": "Legal Status of Company Formation",
+      "embedUrl": "https://www.youtube.com/embed/_seNQ68Nmrc?si=OyoCQ1PJ7C_tKVfJ"
+    },
+    {
+      "id": "sbil-ch2-v2",
+      "videoNo": 2,
+      "title": "Types of Companies",
+      "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=example123"
+    },
+    {
+      "id": "sbil-ch2-v3",
+      "videoNo": 3,
+      "title": "Characteristics of a Company",
+      "embedUrl": "https://www.youtube.com/embed/jNQXAC9IVRw?si=example456"
+    },
+    {
+      "id": "sbil-ch2-v4",
+      "videoNo": 4,
+      "title": "Memorandum of Association (MOA)",
+      "embedUrl": "https://www.youtube.com/embed/M7lc1UVf-VE?si=example789"
+    },
+    {
+      "id": "sbil-ch2-v5",
+      "videoNo": 5,
+      "title": "Articles of Association (AOA)",
+      "embedUrl": "https://www.youtube.com/embed/ysz5S6PUM-U?si=example321"
+    }
+  ]
+}
