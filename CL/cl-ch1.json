@@ -2,36 +2,36 @@
   "subject": "CL",
   "chapterId": "cl-ch1",
   "chapterNo": 1,
-  "chapterName": "Company Formation and Incorporation",
+  "chapterName": "Introduction to Company Law",
   "videos": [
     {
       "id": "cl-ch1-v1",
       "videoNo": 1,
-      "title": "Introduction to Company Formation",
+      "title": "History of Company Law",
       "embedUrl": "https://www.youtube.com/embed/_seNQ68Nmrc?si=OyoCQ1PJ7C_tKVfJ"
     },
     {
       "id": "cl-ch1-v2",
       "videoNo": 2,
-      "title": "Types of Companies",
+      "title": "Doctrines",
       "embedUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=example123"
     },
     {
       "id": "cl-ch1-v3",
       "videoNo": 3,
-      "title": "Characteristics of a Company",
+      "title": "Key Concepts of Company Law",
       "embedUrl": "https://www.youtube.com/embed/jNQXAC9IVRw?si=example456"
     },
     {
       "id": "cl-ch1-v4",
       "videoNo": 4,
-      "title": "Memorandum of Association (MOA)",
+      "title": "E-Governance and Company Law",
       "embedUrl": "https://www.youtube.com/embed/M7lc1UVf-VE?si=example789"
     },
     {
       "id": "cl-ch1-v5",
       "videoNo": 5,
-      "title": "Articles of Association (AOA)",
+      "title": "Hardware and Software Requirements for E-filing",
       "embedUrl": "https://www.youtube.com/embed/ysz5S6PUM-U?si=example321"
     }
   ]
