@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const SUBJECTS = ["JIGL", "CL", "SBILL", "CAFM"];
+const SUBJECTS = ["JIGL", "CL", "SBIL", "CAFM"];
 
 const output = {
   generatedAt: new Date().toISOString(),
